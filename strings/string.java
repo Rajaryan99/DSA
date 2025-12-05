@@ -11,7 +11,9 @@ public class string {
 
         Scanner sc = new Scanner(System.in);
         String name;
-        name  = sc.next();
+        // name  = sc.next();
+        System.out.println("Enter any String/ name/ brnad or anything: ");
+        name  = sc.nextLine();
         System.out.println(name);
 
     }
