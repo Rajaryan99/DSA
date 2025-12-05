@@ -16,5 +16,10 @@ public class string {
         name  = sc.nextLine();
         System.out.println(name);
 
+        String firstName = "raj";
+
+        String fullName = firstName + " " + name;
+        System.out.println(fullName);
+
     }
 }
