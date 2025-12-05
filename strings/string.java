@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class string {
     public static void main(String[] args) {
         char arr[] = {'a', 'b', 'c', 'd'};
@@ -6,5 +8,11 @@ public class string {
 
 
         //String are IMMUTABLE
+
+        Scanner sc = new Scanner(System.in);
+        String name;
+        name  = sc.next();
+        System.out.println(name);
+
     }
 }
